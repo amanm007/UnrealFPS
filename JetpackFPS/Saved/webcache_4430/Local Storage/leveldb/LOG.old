@@ -1,2 +1,3 @@
-2025/11/03-08:35:00.696 bbc Creating DB C:/Users/matha/OneDrive/Documents/Unreal Projects/JetpackFPS/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2025/11/03-08:35:00.726 bbc Reusing MANIFEST C:/Users/matha/OneDrive/Documents/Unreal Projects/JetpackFPS/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/29-18:18:22.026 5694 Reusing MANIFEST C:/Users/matha/OneDrive/Documents/Unreal Projects/JetpackFPS/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/29-18:18:22.027 5694 Recovering log #3
+2025/12/29-18:18:22.028 5694 Reusing old log C:/Users/matha/OneDrive/Documents/Unreal Projects/JetpackFPS/Saved/webcache_4430\Local Storage\leveldb/000003.log 

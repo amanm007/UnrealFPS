@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-JetpackFPS.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\JetpackFPSEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\UnrealEditor\Development\JetpackFPS\JetpackFPS.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\UnrealEditor\Development\JetpackFPS\TestClass.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\UnrealEditor\Development\JetpackFPS\PerModuleInline.gen.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\UnrealEditor\Development\JetpackFPS\Default.rc2.res"
+/OUT:"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\UnrealEditor\Development\JetpackFPS\UnrealEditor-JetpackFPS.lib"

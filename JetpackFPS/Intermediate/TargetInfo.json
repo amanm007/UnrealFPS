@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JetpackFPS",
+			"Path": "..\\Source\\JetpackFPS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JetpackFPSEditor",
+			"Path": "..\\Source\\JetpackFPSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

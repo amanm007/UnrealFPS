@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\matha\\OneDrive\\Documents\\Unreal Projects\\JetpackFPS\\Source\\JetpackFPS\\JetpackFPS.Build.cs",
+		"C:\\Users\\matha\\OneDrive\\Documents\\Unreal Projects\\JetpackFPS\\Plugins\\RootMovement_5.5\\Source\\RootMovement\\RootMovement.Build.cs",
+		"C:\\Users\\matha\\OneDrive\\Documents\\Unreal Projects\\JetpackFPS\\Source\\JetpackFPS.Target.cs",
+		"C:\\Users\\matha\\OneDrive\\Documents\\Unreal Projects\\JetpackFPS\\Source\\JetpackFPSEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

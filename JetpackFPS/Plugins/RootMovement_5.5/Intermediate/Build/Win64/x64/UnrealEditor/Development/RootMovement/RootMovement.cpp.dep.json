@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\plugins\\rootmovement_5.5\\source\\rootmovement\\private\\rootmovement.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\intermediate\\build\\win64\\x64\\jetpackfpseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\plugins\\rootmovement_5.5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rootmovement\\definitions.rootmovement.h",
+            "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\plugins\\rootmovement_5.5\\source\\rootmovement\\public\\rootmovement.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\JetpackFPS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JetpackFPS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\JetpackFPSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RootMovement_5.5">
+      <UniqueIdentifier>{E0F5A0A4-F044-3361-B6BA-1632786EADA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RootMovement_5.5\Source">
+      <UniqueIdentifier>{242A757B-D45D-39B6-9C06-A46AF9EBD0CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RootMovement_5.5\Source\RootMovement">
+      <UniqueIdentifier>{AC834C60-189A-3403-BA9C-DCD33AA1E56D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\RootMovement.Build.cs">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement</Filter>
+    </None>
+    <Filter Include="Plugins\RootMovement_5.5\Source\RootMovement\Private">
+      <UniqueIdentifier>{2C60AA8D-F699-3D58-A665-04A4010564D1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Private\AsyncRootMovement.cpp">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Private\RootMovement.cpp">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Private\RootMovementLibrary.cpp">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RootMovement_5.5\Source\RootMovement\Public">
+      <UniqueIdentifier>{8C28E1B2-9588-383B-ACF0-06367A5D2EB4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Public\AsyncRootMovement.h">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Public\RootMovement.h">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RootMovement_5.5\Source\RootMovement\Public\RootMovementLibrary.h">
+      <Filter>Plugins\RootMovement_5.5\Source\RootMovement\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\RootMovement_5.5\RootMovement.uplugin">
+      <Filter>Plugins\RootMovement_5.5</Filter>
+    </None>
+    <Filter Include="Plugins\RootMovement_5.5\Resources">
+      <UniqueIdentifier>{72F98E96-55C6-3E4B-A2EA-F3F572A85204}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RootMovement_5.5\Resources\Icon128.png">
+      <Filter>Plugins\RootMovement_5.5\Resources</Filter>
+    </None>
+    <Filter Include="Source\JetpackFPS">
+      <UniqueIdentifier>{0504A81C-634A-3963-97A2-CBA6BEC1B3C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JetpackFPS\JetpackFPS.Build.cs">
+      <Filter>Source\JetpackFPS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\JetpackFPS\JetpackFPS.cpp">
+      <Filter>Source\JetpackFPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JetpackFPS\JetpackFPS.h">
+      <Filter>Source\JetpackFPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JetpackFPS\TestClass.cpp">
+      <Filter>Source\JetpackFPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JetpackFPS\TestClass.h">
+      <Filter>Source\JetpackFPS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

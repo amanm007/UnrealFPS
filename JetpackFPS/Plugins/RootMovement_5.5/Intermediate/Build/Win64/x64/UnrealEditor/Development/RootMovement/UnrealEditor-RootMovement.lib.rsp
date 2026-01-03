@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RootMovement.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Intermediate\Build\Win64\x64\JetpackFPSEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\Module.RootMovement.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\AsyncRootMovement.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\RootMovement.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\RootMovementLibrary.cpp.obj"
+"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\Default.rc2.res"
+/OUT:"C:\Users\matha\OneDrive\Documents\Unreal Projects\JetpackFPS\Plugins\RootMovement_5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\RootMovement\UnrealEditor-RootMovement.lib"

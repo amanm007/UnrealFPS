@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\source\\jetpackfps\\jetpackfps.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\intermediate\\build\\win64\\x64\\jetpackfpseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jetpackfps\\definitions.jetpackfps.h",
+            "c:\\users\\matha\\onedrive\\documents\\unreal projects\\jetpackfps\\source\\jetpackfps\\jetpackfps.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
