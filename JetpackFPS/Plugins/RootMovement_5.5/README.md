@@ -2,11 +2,6 @@
 
 Exposes Unreal's `FRootMotionSource_ConstantForce` root-motion source to Blueprints as two nodes — a fire-and-forget constant force, and an async, cancellable version with completion callbacks. This is the propulsion layer used by JetpackFPS's jetpack thrust and slide root-motion bursts (see [`docs/MOVEMENT_SYSTEM.md`](../../../docs/MOVEMENT_SYSTEM.md) for how the game code drives it).
 
-| | |
-| :-- | :-- |
-| Module | `RootMovement` (Runtime, Default loading phase) |
-| Engine version | 5.5.0 |
-| Original author | Cobra Code ([youtube.com/@CobraCode](https://www.youtube.com/@CobraCode)) |
 
 ## Why a plugin instead of raw velocity/impulse
 
