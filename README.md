@@ -66,17 +66,6 @@ A short summary:
 - **State transition** (`SetMovementState` → `OnMovementStateChange`) applies per-state `MaxWalkSpeed`, air control, and gravity scale, and runs enter/exit side effects (crouch timelines, wall-run plane constraints, slide velocity/friction).
 - **Jetpack thrust** is timer-driven (two ~50 Hz timers for thrust application and fuel drain) while hold-duration/curve sampling is Tick-driven, which creates two independent timing systems feeding the same state.
 
-## Known Issues / Technical Debt
-
-This project has been through a technical audit against the current Blueprint graphs. Headline findings (details and repro notes in `docs/MOVEMENT_SYSTEM.md`):
-
-- **Jetpack state has multiple writers.** `JetPackComponent` and `BP_ThirdPersonCharacter` both set `IsJetPacking`, and `Deactivate JetPack` currently sets `IsJetPackHeld`/`IsJetPacking` to `true` instead of `false` — reactivating the jetpack after a full recharge can fail to start thrust.
-- **`ResolveMovementState` doesn't know about the jetpack.** Because JetPacking isn't part of the priority resolver, any later call to `ResolveMovementState` (e.g. from landing or a slide) can silently overwrite an active jetpack or slide state.
-- **Two curve-sampling conventions for jetpack thrust.** The Tick path samples `ThrustCurve` with the normalized `HoldAlpha` (0–1); `JetPackThrust` also samples it directly with raw `JetpackHoldDuration` (0–1.5), which can push the curve outside its intended range.
-- **No `RootMotionSourceID` lifecycle for jetpack thrust.** The repeating jetpack thrust calls the non-async `ApplyRootMotionConstantForce` path and discards the source ID; only the ledge-slide's `UAsyncRootMovement` action tracks and explicitly removes its root-motion source.
-- **Wall-run is constrained to a fixed horizontal plane** (`(0,0,1)`), not the wall's own plane — the wall relationship is maintained purely by re-tracing and overwriting velocity every update, not by a true plane constraint.
-- **The project is not multiplayer-ready.** The character replicates, but `JetPackComponent` does not (`bReplicates = false`), and none of `MovementState`, `IsJetPacking`, `CurrentJetpackFuel`, or the wall-run variables are replicated/RepNotify.
-- Several Blueprint branches (`LaunchCharacter` in `JetPackThrust`, some `BrakingDecelerationFalling` setters, debug `PrintString` nodes) have unwired execution pins and are effectively dead code.
 
 ## License
 
